@@ -1,0 +1,6 @@
+- name: lint
+  service: app
+  command: npm run lint
+- name: test
+  service: app
+  command: npm test
